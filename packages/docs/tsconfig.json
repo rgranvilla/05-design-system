@@ -1,5 +1,5 @@
 {
-  "extends": "@pigeonfy-ui/tsconfig/react.json",
+  "extends": "@devtrails-ui/tsconfig/react.json",
   "include": [
     "src"
   ]

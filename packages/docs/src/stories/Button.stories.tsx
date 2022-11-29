@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonProps } from '@pigeonfy-ui/react'
+import { Button, ButtonProps } from '@devtrails-ui/react'
 import { FiChevronRight } from 'react-icons/fi'
 
 export default {

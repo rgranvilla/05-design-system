@@ -1,4 +1,4 @@
-import { colors } from '@pigeonfy-ui/tokens'
+import { colors } from '@devtrails-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

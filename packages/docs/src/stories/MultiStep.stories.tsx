@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@pigeonfy-ui/react'
+import { Box, MultiStep, MultiStepProps } from '@devtrails-ui/react'
 
 export default {
   title: 'Form/Multi Step',

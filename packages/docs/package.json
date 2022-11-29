@@ -1,5 +1,5 @@
 {
-  "name": "@pigeonfy-ui/docs",
+  "name": "@devtrails-ui/docs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -24,10 +24,10 @@
     "vite": "^3.2.4"
   },
   "dependencies": {
-    "@pigeonfy-ui/eslint-config": "*",
-    "@pigeonfy-ui/react": "*",
-    "@pigeonfy-ui/tokens": "*",
-    "@pigeonfy-ui/tsconfig": "*",
+    "@devtrails-ui/eslint-config": "*",
+    "@devtrails-ui/react": "*",
+    "@devtrails-ui/tokens": "*",
+    "@devtrails-ui/tsconfig": "*",
     "@storybook/addon-a11y": "^6.5.13",
     "polished": "^4.2.2",
     "react": "^18.2.0",

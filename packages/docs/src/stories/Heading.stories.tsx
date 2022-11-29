@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@pigeonfy-ui/react'
+import { Heading, HeadingProps } from '@devtrails-ui/react'
 
 export default {
   title: 'Typography/Heading',

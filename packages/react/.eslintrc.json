@@ -1,3 +1,3 @@
 {
-    "extends": "@pigeonfy-ui/eslint-config"
+    "extends": "@devtrails-ui/eslint-config"
 }

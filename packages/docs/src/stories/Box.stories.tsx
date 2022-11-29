@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, BoxProps, Text } from '@pigeonfy-ui/react'
+import { Box, BoxProps, Text } from '@devtrails-ui/react'
 
 export default {
   title: 'Surface/Box',

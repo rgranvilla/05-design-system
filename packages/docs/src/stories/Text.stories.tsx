@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@pigeonfy-ui/react'
+import { Text, TextProps } from '@devtrails-ui/react'
 
 export default {
   title: 'Typography/Text',

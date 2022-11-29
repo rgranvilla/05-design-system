@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Avatar, AvatarProps } from '@pigeonfy-ui/react'
+import { Avatar, AvatarProps } from '@devtrails-ui/react'
 
 export default {
   title: 'Data display/Avatar',

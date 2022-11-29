@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@pigeonfy-ui/tokens'
+} from '@devtrails-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

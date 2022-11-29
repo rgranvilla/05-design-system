@@ -1,5 +1,5 @@
 {
-  "name": "@pigeonfy-ui/react",
+  "name": "@devtrails-ui/react",
   "version": "1.0.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -11,9 +11,9 @@
     "lint": "eslint src/**/*.ts* --fix"
   },
   "devDependencies": {
-    "@pigeonfy-ui/eslint-config": "*",
-    "@pigeonfy-ui/tokens": "*",
-    "@pigeonfy-ui/tsconfig": "*",
+    "@devtrails-ui/eslint-config": "*",
+    "@devtrails-ui/tokens": "*",
+    "@devtrails-ui/tsconfig": "*",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",

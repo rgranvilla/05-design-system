@@ -1,5 +1,5 @@
 import { StoryObj, Meta } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@pigeonfy-ui/react'
+import { Box, Text, TextArea, TextAreaProps } from '@devtrails-ui/react'
 
 export default {
   title: 'Form/Text Area',

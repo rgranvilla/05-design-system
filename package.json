@@ -1,18 +1,22 @@
 {
-  "name": "pigeonfy-ui",
+  "name": "devtrails-ui",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=@devtrails-ui/docs && changeset publish"
   },
   "engines": {
     "node": ">=16.17.0 <17.0.0"
   },
   "packageManager": "yarn@1.22.19",
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "turbo": "^1.6.3"
   },
   "dependencies": {

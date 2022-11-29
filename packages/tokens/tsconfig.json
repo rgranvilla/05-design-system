@@ -1,5 +1,5 @@
 {
-  "extends": "@pigeonfy-ui/tsconfig/base.json",
+  "extends": "@devtrails-ui/tsconfig/base.json",
   "include": [
     "src"
   ]
