@@ -16,19 +16,16 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
+          cache: "yarn"
 
-      - name: Run install
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: install
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build production bundle
+        run: yarn build
         env:
           TURBO_TOKEN: yNsaIzhdDH5M9I2hIuFRKbCt
           TURBO_TEAM: devtrails
-
-      - name: Build production bundle
-        uses: borales/actions-yarn@v4
-        with:
-          cmd: build
 
       - name: Deploy storybook
         working-directory: ./packages/docs
