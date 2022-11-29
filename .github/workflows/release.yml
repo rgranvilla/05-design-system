@@ -1,5 +1,3 @@
-create a file at .github/workflows/release.yml with the following content.
-
 name: Release
 
 on:
