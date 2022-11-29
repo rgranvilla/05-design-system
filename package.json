@@ -6,10 +6,11 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
+    "build:tokens": "turbo run build --filter=tokens",
     "build": "turbo run build",
     "changeset": "changeset",
     "version-packages": "changeset version",
-    "release": "turbo run build --filter=@devtrails-ui/docs && changeset publish"
+    "release": "turbo run build --filter=!@devtrails-ui/docs && changeset publish"
   },
   "engines": {
     "node": ">=16.17.0 <17.0.0"
