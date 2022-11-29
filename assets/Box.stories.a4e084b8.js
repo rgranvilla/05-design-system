@@ -1,0 +1,2 @@
+import{B as o,T as e}from"./index.0409e0ce.js";import{j as r,F as t}from"./jsx-runtime.f65ad8fe.js";import"./index.3e3526c3.js";import"./iframe.0c74b86d.js";import"./index.1dda73c4.js";const m={title:"Surface/Box",component:o,args:{children:r(t,{children:r(e,{children:"The most attractive accessory someone can have is confidence."})})},argTypes:{children:{control:{type:null}}}},p={},l=["Primary"];export{p as Primary,l as __namedExportsOrder,m as default};
+//# sourceMappingURL=Box.stories.a4e084b8.js.map

@@ -1,0 +1,2 @@
+import{A as t}from"./index.0409e0ce.js";import"./index.3e3526c3.js";import"./iframe.0c74b86d.js";import"./index.1dda73c4.js";import"./jsx-runtime.f65ad8fe.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/rgranvilla.png",alt:"Ricardo Granvilla"},argTypes:{src:{control:{type:"text"}}}},l={},p={args:{src:""}},m=["Primary","WithFallback"];export{l as Primary,p as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.68a863c2.js.map
