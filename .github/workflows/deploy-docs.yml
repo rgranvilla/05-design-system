@@ -24,7 +24,7 @@ jobs:
       - name: Build production bundle
         run: yarn build
         env:
-          TURBO_TOKEN: yNsaIzhdDH5M9I2hIuFRKbCt
+          TURBO_TOKEN: bTSgEZ5cgft5ZA98mvmxw7Fc
           TURBO_TEAM: devtrails
 
       - name: Deploy storybook
