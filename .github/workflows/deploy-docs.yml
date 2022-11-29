@@ -21,6 +21,9 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: install
+        env:
+          TURBO_TOKEN: yNsaIzhdDH5M9I2hIuFRKbCt
+          TURBO_TEAM: devtrails
 
       - name: Build production bundle
         uses: borales/actions-yarn@v4
