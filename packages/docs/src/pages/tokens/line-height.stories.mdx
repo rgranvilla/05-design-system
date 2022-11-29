@@ -1,0 +1,22 @@
+import { Meta } from "@storybook/addon-docs";
+import { TokensGrid } from "../../components/TokensGrid";
+import { LineHeights } from "../../components/LineHeights";
+import { lineHeights } from "@pigeonfy-ui/tokens";
+
+<Meta title="Tokens/Line Heights" />
+
+# Line Heights
+
+<p>Utilities for controlling the leading (line height) of an element.</p>
+
+<TokensGrid tokens={lineHeights} />
+
+<br />
+
+<h2>Relative line-heights</h2>
+<p>
+  Use the `shorter`, `short`, `base` and `tall` utilities to give an element a
+  relative line-height based on its current font-size.
+</p>
+
+<LineHeights lineHeights={lineHeights} />

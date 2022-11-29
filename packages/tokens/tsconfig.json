@@ -1,0 +1,6 @@
+{
+  "extends": "@pigeonfy-ui/tsconfig/base.json",
+  "include": [
+    "src"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "pigeonfy-ui",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "engines": {
+    "node": ">=16.17.0 <17.0.0"
+  },
+  "packageManager": "yarn@1.22.19",
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "dependencies": {
+    "phosphor-react": "^1.4.1",
+    "react-icons": "^4.7.1"
+  }
+}
